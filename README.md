@@ -1,13 +1,13 @@
 # Vistora AI Security Policy Engine
 
 🛡️ *Protecting LLM prompts by detecting & mitigating malicious or obfuscated attacks*
-Google COllab Link:- https://colab.research.google.com/drive/1FL3DLAdiVUst0x7OEOhUIuJLmso_IWYb?usp=sharing
+
 ---
 
 ## 🚀 Project Overview
 
 This repository contains an AI security policy engine built to detect, sanitize, or block malicious or suspicious user prompts sent to an LLM. The core components include:
-
+Google COllab Link:- https://colab.research.google.com/drive/1FL3DLAdiVUst0x7OEOhUIuJLmso_IWYb?usp=sharing
 - `detector.py` — rule-based heuristics for recognizing prompt injections, obfuscations (base64, homoglyphs), etc.  
 - `policy_engine.py` — enforces a security policy: **BLOCK**, **SANITIZE**, or **ALLOW** prompts based on detection results.  
 - `app.py` — Streamlit interface demonstrating how the policy engine works with real user inputs.  
